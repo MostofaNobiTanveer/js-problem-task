@@ -1,13 +1,5 @@
-const people = [
-  { name: 'sunil', age: 21, temperature: 98 },
-  { name: 'anik', age: 22, temperature: 98 },
-  { name: 'Ashik', age: 35, temperature: 91 },
-  { name: 'Tonmoy', age: 50, temperature: 80 },
-  { name: 'Zaif', age: 22, temperature: 101 },
-  { name: 'Tanveer', age: 60, temperature: 98 },
-];
-
 const vaxTrail = (arr) => {
+  // 1st way
   // let A = [
   //   ...arr.filter(
   //     ({ age, temperature }) => age >= 20 && age <= 30 && temperature < 100
@@ -26,6 +18,8 @@ const vaxTrail = (arr) => {
   // let D = [
   //   ...arr.filter(({ age, temperature }) => age > 50 || temperature > 100),
   // ];
+
+  // 2nd way
   let A = [],
     B = [],
     C = [],
